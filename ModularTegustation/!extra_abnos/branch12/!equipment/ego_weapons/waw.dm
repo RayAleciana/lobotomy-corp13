@@ -576,9 +576,8 @@
 /obj/item/ego_weapon/ranged/branch12/antique/reload_ego(mob/user)
 	to_chat(user,"<span class='notice'>You see no way to reload this EGO.</span>")
 
-
 /obj/projectile/ego_bullet/plasmacoree6
 	name = "plasmacore e6"
-	icon_state = "heav ylaser"
+	icon_state = "heavylaser"
 	damage = 60
 	damage_type = RED_DAMAGE
