@@ -1,6 +1,6 @@
 
 #define STATUS_EFFECT_TEMPOVITA /datum/status_effect/tempo_vita
-
+// To do: Work rates. Records.
 /mob/living/simple_animal/hostile/abnormality/branch12/tempo
 	name = "Tempo Primo"
 	desc = ""
