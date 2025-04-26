@@ -451,3 +451,15 @@
 		"When the work result was neutral, the Qliphoth counter decreased at a normal rate.",
 		"WARNING: DO NOT ENTER M-03-12-512."
 	)
+
+// Altar of the Black Sun
+/obj/item/paper/fluff/info/aleph/black_sun
+	abno_type = /mob/living/simple_animal/hostile/abnormality/black_sun
+	abno_code = "M-03-12-192"
+	abno_info = list(
+		"This abnormality will rise over the course of 20 minutes",
+		"As time goes on, this abnormality boosts your stats significantly",
+		"Working on this abnormality will start the next meltdown.",
+		"After some time, Waxing of The Black Sun will soak the floor of the facility with blood, causing employees to be filled with rage.",
+		"After The Black Sun reaches the zenith, all abnormalities will breach"
+		)
