@@ -109,6 +109,8 @@
 	//expand_cooldown = 20 SECONDS
 	can_expand = TRUE
 	bypass_density = TRUE
+	vis_flags = VIS_INHERIT_PLANE
+	obj_flags = NONE
 	var/mob/living/simple_animal/hostile/abnormality/branch12/oldman_pale/connected_abno
 
 /obj/structure/spreading/pale/Initialize()

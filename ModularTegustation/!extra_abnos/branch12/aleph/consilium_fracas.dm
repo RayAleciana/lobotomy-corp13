@@ -89,6 +89,8 @@
 	//expand_cooldown = 20 SECONDS
 	can_expand = TRUE
 	bypass_density = TRUE
+	obj_flags = NONE
+	vis_flags = VIS_INHERIT_PLANE
 	var/mob/living/simple_animal/hostile/abnormality/branch12/consilium_fracas/connected_abno
 
 /obj/structure/spreading/fracas_fire/Initialize()

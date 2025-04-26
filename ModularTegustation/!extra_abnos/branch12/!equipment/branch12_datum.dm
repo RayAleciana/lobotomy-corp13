@@ -23,14 +23,6 @@
 	item_path = /obj/item/clothing/suit/armor/ego_gear/branch12/becoming
 	cost = 10
 
-// Extermination Order - Exterminator
-/datum/ego_datum/weapon/branch12/exterminator
-	item_path = /obj/item/ego_weapon/ranged/branch12/mini/exterminator
-	cost = 10
-
-/datum/ego_datum/armor/branch12/exterminator
-	item_path = /obj/item/clothing/suit/armor/ego_gear/branch12/exterminator
-	cost = 10
 
 // Saga of Man - Age of Man
 /datum/ego_datum/weapon/branch12/age
@@ -141,6 +133,15 @@
 //Helios Effigy - Solar Day
 /datum/ego_datum/armor/branch12/solar_day
 	item_path = /obj/item/clothing/suit/armor/ego_gear/branch12/solar_day
+	cost = 35
+
+// Extermination Order - Exterminator
+/datum/ego_datum/weapon/branch12/exterminator
+	item_path = /obj/item/ego_weapon/ranged/branch12/mini/exterminator
+	cost = 35
+
+/datum/ego_datum/armor/branch12/exterminator
+	item_path = /obj/item/clothing/suit/armor/ego_gear/branch12/exterminator
 	cost = 35
 
 // --------WAW---------
