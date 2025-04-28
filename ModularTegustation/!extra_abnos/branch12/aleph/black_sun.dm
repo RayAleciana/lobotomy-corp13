@@ -22,6 +22,7 @@
 		)
 //	gift_type = /datum/ego_gifts/arcadia
 
+	abnormality_origin = ABNORMALITY_ORIGIN_BRANCH12
 	//takes 20 minutes from the moment of getting it to kill everyone
 	var/stage
 	var/nextstage = 1 MINUTES
