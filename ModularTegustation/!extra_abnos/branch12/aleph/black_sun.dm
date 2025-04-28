@@ -21,7 +21,6 @@
 		/datum/ego_datum/armor/arcadia
 		)
 //	gift_type = /datum/ego_gifts/arcadia
-	abnormality_origin = ABNORMALITY_ORIGIN_ORIGINAL
 
 	//takes 20 minutes from the moment of getting it to kill everyone
 	var/stage
