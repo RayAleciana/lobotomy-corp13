@@ -102,7 +102,7 @@
 	icon_state = "halon"
 	anchored = TRUE
 	density = FALSE
-	layer = SPACEVINE_LAYER
+	layer = BELOW_OBJ_LAYER
 	plane = 4
 	max_integrity = 100000
 	base_icon_state = "halon"

@@ -454,7 +454,7 @@
 
 // Altar of the Black Sun
 /obj/item/paper/fluff/info/aleph/black_sun
-	abno_type = /mob/living/simple_animal/hostile/abnormality/black_sun
+	abno_type = /mob/living/simple_animal/hostile/abnormality/branch12/black_sun
 	abno_code = "M-03-12-192"
 	abno_info = list(
 		"This abnormality will rise over the course of 20 minutes",
