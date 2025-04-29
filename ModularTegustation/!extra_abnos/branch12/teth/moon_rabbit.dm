@@ -70,6 +70,12 @@
 	base_pixel_x = 0
 	icon = 'ModularTegustation/Teguicons/branch12/32x32.dmi'
 
+/*mob/living/simple_animal/hostile/abnormality/branch12/moon_rabbit/Life(atom/attacked_target)
+	..()
+	for(var/mob/living/simple_animal/hostile/abnormality/branch12/misfortune_ghost/A in GLOB.abnormality_mob_list)
+		if(!A.IsContained())
+			BreachMe()*/
+
 /mob/living/simple_animal/hostile/abnormality/branch12/moon_rabbit/PostWorkEffect(mob/living/carbon/human/user, work_type, pe, work_time)
 	..()
 	say("Don't worry, you want it, I got it.")

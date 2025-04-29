@@ -1,4 +1,8 @@
 
+/datum/ego_datum/weapon/branch12
+	well_enabled = FALSE
+
+
 // --------ZAYIN---------
 // Full-Wave M'aider - Signal
 /datum/ego_datum/weapon/branch12/signal

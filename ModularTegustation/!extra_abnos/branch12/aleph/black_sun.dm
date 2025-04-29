@@ -16,8 +16,8 @@
 	work_damage_type = RED_DAMAGE
 
 	ego_list = list(
-		/datum/ego_datum/weapon/arcadia,
-//		/datum/ego_datum/weapon/judge,
+		/datum/ego_datum/weapon/branch12/lucifer,
+		/datum/ego_datum/weapon/branch12/executioner,
 		/datum/ego_datum/armor/arcadia
 		)
 //	gift_type = /datum/ego_gifts/arcadia

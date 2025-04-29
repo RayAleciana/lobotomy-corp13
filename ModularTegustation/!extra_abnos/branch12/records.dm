@@ -102,6 +102,15 @@
 		"T-05-12-96 would return the sapped stat in an 'innate' form.",
 	)
 
+// Your Friends Need You
+/obj/item/paper/fluff/info/branch12/need_you
+	abno_type = /mob/living/simple_animal/hostile/abnormality/branch12/need_you
+	abno_code = "T-05-12-113"
+	abno_info = list(
+		"When an employee entered T-05-12-113, their body was completely destroyed.",
+		"After an employee was destroyed by T-05-12-113, all the agents in the facility got a bit stronger.",
+	)
+
 
 //	-------------TETH-------------
 // Remnant of the Forest
@@ -453,8 +462,8 @@
 	)
 
 // Altar of the Black Sun
-/obj/item/paper/fluff/info/aleph/black_sun
-	abno_type = /mob/living/simple_animal/hostile/abnormality/branch12/black_sun
+/obj/item/paper/fluff/info/branch12/black_sun
+	abno_type = /mob/living/simple_animal/hostile/abnormality/branch12/black_sunaltar
 	abno_code = "M-03-12-192"
 	abno_info = list(
 		"This abnormality will rise over the course of 20 minutes",

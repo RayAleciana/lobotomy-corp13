@@ -73,7 +73,7 @@
 
 /datum/status_effect/tempo_vita/tick()
 	if(last_turf == get_turf(owner))
-		owner.adjustToxLoss(4)	//Rare damage type
+		owner.adjustSanityLoss(4)	//Rare damage type
 	if(owner)
 		last_turf = get_turf(owner)
 

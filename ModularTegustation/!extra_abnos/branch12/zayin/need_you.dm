@@ -22,7 +22,6 @@
 	var/list/nerds = list()
 
 /mob/living/simple_animal/hostile/abnormality/branch12/need_you/AttemptWork(mob/living/carbon/human/user, work_type)
-	..()
 	if((work_type == "Enter Device") && !(user.ckey in nerds))
 		nerds += user.ckey
 		user.gib()
@@ -33,10 +32,14 @@
 				continue
 
 			to_chat(H, span_notice("You feel the strength of comrades lost."))
-			H.adjust_all_attribute_levels(2)
+			H.adjust_all_attribute_levels(get_user_level(user)*get_user_level(user))
+		return FALSE
 
 	else if(user.ckey in nerds)
 		to_chat(user, span_notice("you are punished for your disingenuity."))
 		addtimer(CALLBACK(GLOBAL_PROC, GLOBAL_PROC_REF(show_global_blurb), 5 SECONDS, "SHAME [user.name]", 25))
 		user.dust()
+		return FALSE
+
+	return TRUE
 
