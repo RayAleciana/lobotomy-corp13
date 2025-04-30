@@ -33,7 +33,7 @@
 	projectilesound = 'sound/magic/wandodeath.ogg'
 
 	ego_list = list(
-		//datum/ego_datum/weapon/icon_of_chaos,
+		/datum/ego_datum/weapon/branch12/icon_of_chaos,
 		//datum/ego_datum/armor/icon_of_chaos,
 		)
 

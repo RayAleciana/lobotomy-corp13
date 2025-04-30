@@ -208,6 +208,11 @@
 	item_path = /obj/item/clothing/suit/armor/ego_gear/branch12/rumor
 	cost = 50
 
+//Enchangtress of Wands - Icon of Chaos
+/datum/ego_datum/weapon/branch12/icon_of_chaos
+	item_path = /obj/item/ego_weapon/ranged/branch12/icon_of_chaos
+	cost = 50
+
 //Genie of Pentacles - 10000 dolers
 /datum/ego_datum/weapon/branch12/ten_thousand_dolers
 	item_path = /obj/item/ego_weapon/branch12/mini/ten_thousand_dolers
